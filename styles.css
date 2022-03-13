@@ -5,12 +5,19 @@ body {
   box-sizing: border-box;
   font-size: 15px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 40px;
 }
 
+.main_section {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
 .top-bar {
   color: whitesmoke;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .button {
@@ -24,11 +31,13 @@ body {
 
 .text {
   color: whitesmoke;
+  padding: 20px;
 }
 
 .logos {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .overall {
